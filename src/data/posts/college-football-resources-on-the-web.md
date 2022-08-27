@@ -1,6 +1,6 @@
 ---
-pubDate: "Aug 09 2022"
-title: "Useful tools and resources to create a professional website"
+pubDate: "Aug 26 2022"
+title: "College Football Resources on the Web"
 description: "Nibh senectus lacinia volutpat nostra taciti ac posuere, dictum ultricies dictumst luctus in vehicula, mus molestie venenatis penatibus ridiculus elementum. Phasellus sollicitudin dignissim parturient."
 image: "~/assets/images/tools.jpg"
 ---

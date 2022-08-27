@@ -1,19 +1,19 @@
 ---
 import { Icon } from "astro-icon";
-
+import Logo from './Logo.astro';
 const {} = Astro.props;
 ---
 
-<footer>
+<footer class="bg-rose-600">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div
       class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12 border-t border-gray-200 dark:border-slate-800"
     >
       <div class="col-span-12 lg:col-span-3">
         <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href="/">AstroWind</a>
+          <Logo />
         </div>
-        <div class="text-sm text-gray-600">
+        <div class="text-sm text-orange-50">
           <a
             class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
             href="#"
@@ -27,83 +27,83 @@ const {} = Astro.props;
         </div>
       </div>
       <div class="col-span-6 md:col-span-3 lg:col-span-2">
-        <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">
-          Products
+        <div class="text-orange-50 dark:text-gray-300 font-medium mb-2">
+          Other Sites
         </div>
         <ul class="text-sm">
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Web Studio
+              >GeauxWeisbeck4.dev
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >DynamicBox Flex
+              >tarheeldevstudio.com
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Programming Forms
+              >andrewweisbeck.blog
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Integrations
+              >Tar Heel Windows
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Command-line
+              >Geaux.codes
             </a>
           </li>
         </ul>
       </div>
       <div class="col-span-6 md:col-span-3 lg:col-span-2">
-        <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">
+        <div class="text-orange-50 dark:text-gray-300 font-medium mb-2">
           Resources
         </div>
         <ul class="text-sm">
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-              href="#"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              href="https://docusaurus.com"
               >Documentation
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-              href="#"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              href="https://geaux.codes"
               >Tutorials &amp; Guides
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-              href="#"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              href="/blog"
               >Blog
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Support Center
+              >Get Support
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
               >Partners
             </a>
@@ -111,41 +111,41 @@ const {} = Astro.props;
         </ul>
       </div>
       <div class="col-span-6 md:col-span-3 lg:col-span-2">
-        <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">
+        <div class="text-orange-50 dark:text-gray-300 font-medium mb-2">
           Company
         </div>
         <ul class="text-sm">
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
               >Home
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
               >About us
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Company values
+              >GitHub
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
-              >Pricing
+              >Donate
             </a>
           </li>
           <li class="mb-2">
             <a
-              class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+              class="text-gray-300 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
               href="#"
               >Privacy Policy
             </a>
@@ -153,10 +153,10 @@ const {} = Astro.props;
         </ul>
       </div>
       <div class="col-span-12 md:col-span-3 lg:col-span-3">
-        <div class="text-gray-800 dark:text-gray-300 font-medium mb-2">
+        <div class="text-orange-50 dark:text-gray-300 font-medium mb-2">
           Subscribe
         </div>
-        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+        <p class="text-sm text-gray-300 dark:text-gray-400 mb-4">
           Get the latest news and articles to your inbox every month.
         </p>
         <form>
@@ -238,9 +238,9 @@ const {} = Astro.props;
         </span>
         Made by <a
           class="text-blue-600 hover:underline dark:text-gray-200"
-          href="https://onwidget.com/"
+          href="https://geauxweisbeck4.dev"
         >
-          onWidget
+         GeauxWeisbeck4
         </a>. All rights reserved.
       </div>
     </div>

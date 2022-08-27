@@ -1,11 +1,11 @@
 ---
-pubDate: "Aug 10 2022"
-title: "How to customize AstroWind template to suit your branding"
-description: "Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat"
+pubDate: "Aug 27 2022"
+title: "GameDay Week Zero: Nebraska Cornhuskers vs. Northwestern Wildcats"
+description: "My GameDay preview for the first game of the year for my beloved Cornhuskers is here - check it out and learn more about HuskerJS"
 image: "~/assets/images/colors.jpg"
 ---
 
-## Congue justo vulputate nascetur convallis varius orci fringilla nulla pharetr
+## It's Game Day and there ain't no better feeling in the world ladies and gentleman 
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit, augue malesuada natoque in ad erat aliquam facilisi, lacus rhoncus mattis nostra et a. Mauris malesuada rutrum dis libero egestas mus vulputate, fermentum ad morbi phasellus faucibus tellus leo urna, blandit ullamcorper diam imperdiet dictumst litora. Fringilla eros malesuada lobortis mi odio metus leo, blandit imperdiet augue fames aliquam ultricies tortor massa, duis magnis hendrerit id magna sociosqu. Aptent mi imperdiet id sapien suscipit ut netus turpis, lacinia ac porttitor potenti dui taciti at egestas, fermentum neque nascetur sodales tortor nunc congue. 
 

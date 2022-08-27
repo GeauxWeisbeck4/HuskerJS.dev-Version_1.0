@@ -22,5 +22,8 @@
     "prettier-plugin-astro": "^0.5.0",
     "reading-time": "^1.5.0",
     "subfont": "^6.9.0"
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.15.72"
   }
 }

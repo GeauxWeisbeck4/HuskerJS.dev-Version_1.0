@@ -107,7 +107,7 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b8e3338-e4fd-4726-9ef1-73ce4a02a986/deploy-status)](https://app.netlify.com/sites/huskerjs/deploys)
 
 ### Deploy to Vercel
 
