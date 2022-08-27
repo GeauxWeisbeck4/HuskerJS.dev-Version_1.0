@@ -2,7 +2,7 @@
 pubDate: "Aug 12 2022"
 title: "Get started with AstroWind to create a website using Astro and Tailwind CSS"
 description: "Start creating your own blog today"
-excerpt: "Perhaps you are a web=developer or a very crafty creator - you can go ahead and try to build out your blog with HTML, CSS, and JavaScript.
+excerpt: "Perhaps you are a web=developer or a very crafty creator - you can go ahead and try to build out your blog with HTML, CSS, and JavaScript."
 image: "~/assets/images/hero.jpg"
 ---
 
