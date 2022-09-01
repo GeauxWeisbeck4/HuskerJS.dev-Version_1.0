@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend to HuskerJS-Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geauxweisbeck4/HuskerJS-Dev-Backend.git"
+  },
+  "author": "Andrew Weisbeck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geauxweisbeck4/HuskerJS-Dev-Backend/issues"
+  },
+  "homepage": "https://github.com/geauxweisbeck4/HuskerJS-Dev-Backend#readme"
+}
