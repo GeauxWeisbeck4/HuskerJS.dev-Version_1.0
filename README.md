@@ -1,9 +1,11 @@
-# 🚀 AstroWind
+# 🌽 HuskerJS.dev 
 
 <img src="lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
 
-**AstroWind** is a free and open-source template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and designed taking into account best practices.
+**HuskerJS.dev** is a sports web development platform that helps creators get started with their dream sports project. We have more than one way we can help you out!
+
+We offer free templates and resources as well as paid resources and I offer best in class sports web development services and data analytics and visualization.
 
 ## Features
 
@@ -20,13 +22,13 @@
 
 <img src="./screenshot.png" alt="AstroWind Theme Screenshot">
 
-[Live demo](https://astrowind.vercel.app/) 
+[Live demo](https://huskerjs.dev/) 
 
 <br>
 
 ## Project Structure
 
-Inside AstroWind template, you'll see the following folders and files:
+Here is a generic layout for the HuskerJS.dev website. Sites will differ based on tech stack and the team that they are hosting.
 
 ```
 /
@@ -70,9 +72,9 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main)
+[![Edit HuskerJS.dev on CodeSandbox]
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
 
 <br>
 
@@ -107,13 +109,11 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b8e3338-e4fd-4726-9ef1-73ce4a02a986/deploy-status)](https://app.netlify.com/sites/huskerjs/deploys)
 
 ### Deploy to Vercel
 
 Clone this repository on own GitHub account and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
 
 <br>
 
@@ -149,4 +149,4 @@ That would be very useful for all of us and we would be happy to listen and take
 
 ## License
 
-**AstroWind** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/astrowind/blob/main/LICENSE.md) file for details.
+**HuskerJS.dev** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/astrowind/blob/main/LICENSE.md) file for details.

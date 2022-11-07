@@ -1,5 +1,4 @@
 ---
-const {} = Astro.props;
 ---
 
 <script is:inline>
@@ -31,10 +30,12 @@ const {} = Astro.props;
   window.onload = function () {
     attachEvent("[data-aw-toggle-menu]", "click", function (elem) {
       elem.classList.toggle("expanded");
-      document.getElementById("menu")?.classList.toggle("hidden");
+      document.body.classList.toggle('overflow-hidden');
+      document.getElementById('header')?.classList.toggle('h-screen');
+      document.querySelector('#header nav')?.classList.toggle('hidden');
     });
 
-    attachEvent("[data-aw-toggle-color-scheme]", "click", function (elem) {
+    attachEvent("[data-aw-toggle-color-scheme]", "click", function () {
       document.documentElement.classList.toggle("dark");
       localStorage.theme = document.documentElement.classList.contains("dark")
         ? "dark"
@@ -42,10 +43,12 @@ const {} = Astro.props;
     });
   };
   window.onpageshow = function () {
-    const elem = document.querySelector("[data-aw-toggle-menu]");
+    const elem = document.querySelector('[data-aw-toggle-menu]');
     if (elem) {
       elem.classList.remove("expanded");
     }
-    document.getElementById("menu")?.classList.add("hidden");
+    document.body.classList.remove('overflow-hidden');
+    document.getElementById('header')?.classList.remove('h-screen');
+    document.querySelector('#header nav')?.classList.add('hidden');
   };
 </script>

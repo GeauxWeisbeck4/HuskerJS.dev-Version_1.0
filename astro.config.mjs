@@ -7,6 +7,8 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import image from "@astrojs/image";
 
+import { remarkReadingTime } from './src/utils/frontmatter.js';
+
 import { SITE } from "./src/config.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -14,8 +16,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://astro.build/config
 export default defineConfig({
   // Astro uses this full URL to generate your sitemap and canonical URLs in your final build
-  site: SITE.domain,
-  base: "/",
+  site: SITE.origin,
+  base: SITE.basePathname,
+    trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: "static",
 
@@ -26,8 +29,14 @@ export default defineConfig({
       },
     }),
     sitemap(),
-    image(),
-  ],
+    image({
+        serviceEntryPoint: '@astrojs/image/sharp',
+    }),
+],
+	markdown: {
+		remarkPlugins: [remarkReadingTime],
+		extendDefaultPlugins: true,
+	},
 
   vite: {
     resolve: {
